@@ -1,0 +1,80 @@
+# Dossiers
+downloaded_datasets/
+
+# Fichiers du système d'exploitation
+.DS_Store
+Thumbs.db
+
+# Environnements virtuels
+venv/
+.env/
+__pycache__/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Fichiers spécifiques à Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Fichiers de log
+*.log
+
+# Dossiers de données téléchargées
+data/raw/
+data/interim/
+data/processed/
+
+# Exclusion de datasets courants
+*.csv
+*.tsv
+*.xlsx
+*.xls
+*.xml
+*.json
+*.parquet
+*.feather
+*.hdf5
+*.sqlite
+*.db
+*.pkl
+*.pklz
+*.joblib
+*.h5
+
+# Modèles et fichiers volumineux
+*.h5
+*.pkl
+*.pklz
+*.joblib
+*.hdf5
+
+# Fichiers de configuration d'outils de Data Science
+*.env
+.env
+.envrc
+
+# Fichiers de sortie
+output/
+results/
+
+# Exclusion des fichiers générés par des outils de gestion de dépendances
+Pipfile.lock
+*.egg-info/
+dist/
+build/
+*.tar.gz
+
+# Fichiers spécifiques à IDEs
+.vscode/
+.idea/
+
+# Fichiers spécifiques à Jupyter
+profile_default/
+.ipython/
+
+# Fichiers de Big Data (par exemple, les fichiers de Dask)
+dask_worker/
